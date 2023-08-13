@@ -1,15 +1,16 @@
 
 
-**Patró: Builder**
+**Patrón: Builder**
 
 
-**Descripción**
+**Descripción** <br>
 El patrón de diseño creacional "Builder" se trata de crear objetos complejos paso a paso. Imagina que estás construyendo una casa. En lugar de construir toda la casa de una vez, primero construyes las partes más pequeñas, como las paredes, el techo y las ventanas, y luego las ensamblas para formar la casa completa.
 
 En el patrón Builder, hay dos partes clave: el "Builder" (constructor) y el "Director". El constructor es responsable de construir cada parte del objeto de manera individual, mientras que el director coordina la secuencia en la que se ensamblan las partes.
 
 En resumen, el patrón Builder se trata de dividir la creación de un objeto complejo en pasos más pequeños y manejables. Esto hace que el proceso sea más flexible, ya que puedes crear diferentes tipos de objetos combinando diferentes partes. Además, separa la construcción del objeto de su representación final, lo que facilita la creación de objetos complejos sin complicar el código.
 
+<br>
 
 **Aplicabilidad**
 - Creación de objetos complejos: Cuando necesitas crear objetos complejos que constan de múltiples partes y configuraciones, el patrón Builder puede ayudarte a separar el proceso de construcción del objeto final del código cliente.

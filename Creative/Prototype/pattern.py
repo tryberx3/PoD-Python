@@ -10,6 +10,7 @@ class BaseTask:
     def clone(self):
         return copy.deepcopy(self)
     
+
 class DevTask(BaseTask):
     def __init__(self, name, description, devtool):
         super().__init__(name=name, description=description)
@@ -17,6 +18,7 @@ class DevTask(BaseTask):
     
     def __str__(self):
         return f"Task Name: {self.name}\nDescription: {self.description}\nDeveloper Tool: {self.devtool}"
+
 
 class DesTask(BaseTask):
     def __init__(self, name, description, destool):

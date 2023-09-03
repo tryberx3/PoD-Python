@@ -9,6 +9,7 @@ class Computer:
     def __str__(self):
         return f"Computer: CPU={self.cpu}, GPU={self.gpu}, RAM={self.ram}"
 
+
 class ComputerBuilder:
     def __init__(self):
         self.computer = Computer()
@@ -21,6 +22,7 @@ class ComputerBuilder:
 
     def configure_ram(self, ram):
         self.computer.ram = ram
+
 
 class Director:
     def __init__(self, builder):
